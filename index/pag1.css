@@ -22,5 +22,22 @@ header {
 .menu-header a:hover {
     background-color: #555;
     color: #ff3300;
+}
 
+.inicio-h1 {
+    margin: 50px;
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio-h1 img{
+    height: auto;
+    width: auto;
+    
+}
+
+.textos-noticia {
+    padding-right: 50px;
+    margin-right: 195px;
+    font-family:sans-serif;
 }
