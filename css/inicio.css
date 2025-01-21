@@ -1,0 +1,72 @@
+/* Estilos globais */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+}
+
+header img {
+    float: left;
+    margin: 10px;
+    height: 80px;
+    width: 80px;
+}
+
+/* Menu de navegação */
+.menu-header {
+    background-color: #333;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.menu-header a:hover {
+    background-color: #555;
+    color: #ff3300;
+}
+
+/* Conteúdo principal */
+.inicio-h1 {
+    margin: 50px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inicio-h1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Texto da notícia */
+.textos-noticia {
+    margin: 20px auto;
+    padding: 0 50px;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+/* Ajuste para tags e categorias */
+.tags-categorias p {
+    margin: 10px 50px;
+    font-weight: bold;
+}
