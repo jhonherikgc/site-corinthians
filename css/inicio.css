@@ -89,8 +89,9 @@ header img {
 
 .noticia img {
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     height: auto;
+    border: solid 1px black ;
 }
 
 

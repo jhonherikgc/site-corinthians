@@ -43,3 +43,27 @@ header img {
     background-color: #555;
     color: #ff3300;
 }
+
+.noticia1 {
+    margin: 50px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.noticia1 h1 {
+    
+}
+
+.noticia1 img {
+    max-width: 100%;
+    height: auto;
+    width: 700px;
+    margin: 0px;
+    padding: 0%;
+}
+
+.texto-noticia {
+    margin: 20px auto;
+    padding: 0 50px;
+    font-family: sans-serif;
+    text-align: justify;
+}
