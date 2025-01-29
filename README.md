@@ -5,7 +5,8 @@
 <br>
     <h3>29.01.2025:</h3>
 - imagens de noticias <br>
-- textos das noticias + flexbox
+- textos das noticias + flexbox <br>
+- Alinhamento de imagens + Pesquisa sobre o tema
  <br>
  <hr>
 
