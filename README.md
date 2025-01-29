@@ -4,9 +4,10 @@
 - Css ajustado com as páginas de menu.
 <br>
     <h3>29.01.2025:</h3>
-- imagens de noticias <br>
-- textos das noticias + flexbox <br>
-- Alinhamento de imagens + Pesquisa sobre o tema
+- Imagens de noticias <br>
+- Textos das noticias + flexbox <br>
+- Alinhamento de imagens + Pesquisa sobre o tema 
+- Novas Noticias
  <br>
  <hr>
 

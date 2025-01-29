@@ -57,6 +57,15 @@ header img {
     height: auto;
 }
 
+.inicio-h1 cite {
+    display: block; 
+    text-align: left; 
+    font-style: italic;
+    font-size: 14px;
+    color: #666; 
+    margin-top: 5px; 
+}
+
 /* Texto da notícia */
 .textos-noticia {
     margin: 20px auto;
@@ -93,5 +102,16 @@ header img {
     height: auto;
     border: solid 1px black ;
 }
+
+    /*Cite Noticias */
+.noticia cite {
+    display: block; /* Faz o <cite> aparecer abaixo da imagem */
+    text-align: center; /* Centraliza o texto do crédito */
+    font-style: italic; /* Mantém o estilo do <cite> */
+    font-size: 14px; /* Ajusta o tamanho do texto */
+    color: #666; /* Deixa o crédito mais discreto */
+    margin-top: 5px; /* Dá um pequeno espaço entre a imagem e o <cite> */
+}
+
 
 
