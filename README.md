@@ -10,6 +10,10 @@
 - Novas Noticias
  <br>
  <hr>
+ <h3>30.01.2025:</h3>
+ - Noticia 3 colocada no site
+ <br>
+ <hr>
 
 **SEM NOTICIAS REAIS** <br>
 Esse projeto consiste em se divertir/praticar/estudar. Quero "Recriar" um site de notícias do "Timão" só que do meu jeito. Sobre o clube e Ultimas contratações. 
