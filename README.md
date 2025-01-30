@@ -1,19 +1,21 @@
 <h1>Atualizações</h1> <br>
     <h3>28.01.2025:</h3>
-- Pastas Organizadas conforme o menu-nav. <br>
+- Pastas Organizadas conforme o menu-nav; <br>
 - Css ajustado com as páginas de menu.
 <br>
     <h3>29.01.2025:</h3>
-- Imagens de noticias <br>
-- Textos das noticias + flexbox <br>
-- Alinhamento de imagens + Pesquisa sobre o tema 
-- Novas Noticias
+- Imagens de noticias; <br>
+- Textos das noticias + flexbox; <br>
+- Alinhamento de imagens + Pesquisa sobre o tema ;
+- Novas Noticias.
  <br>
  <hr>
  <h3>30.01.2025:</h3>
- - Noticia 3 colocada no site <br>
- - div's editadas <br>
- - Css Noticia 3 adicionado
+ - Noticia 3 colocada no site; <br>
+ - Div's editadas; <br>
+ - Css Noticia 3 adicionado; <br>
+ - .gitattributes adicionado em caso de haver erros futuros;<br>
+ - ID na URL - Clique redirecionado direto para a noticia.
  <br>
  <hr>
 

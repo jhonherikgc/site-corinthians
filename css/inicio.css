@@ -48,13 +48,24 @@ header img {
 
 /* Conteúdo principal */
 .inicio-h1 {
-    margin: 50px 100px;
+    width: 80%; 
+    margin: 50px 100px; /* Centraliza o bloco na página */
     font-family: Arial, Helvetica, sans-serif;
+    text-align: left; 
 }
 
+.inicio-h3 {
+    width: 80%; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; 
+}
+
+
 .inicio-h1 img {
-    max-width: 100%;
+    display: flex; 
+    width: 70%; 
     height: auto;
+    margin-bottom: 15px;
 }
 
 .inicio-h1 cite {
@@ -68,10 +79,11 @@ header img {
 
 /* Texto da notícia */
 .textos-noticia {
-    margin: 20px auto;
-    padding: 0 50px;
-    font-family: sans-serif;
-    text-align: justify;
+    width: 700px; 
+    max-width: 100%;
+    margin: 50px 100px; /* Centraliza o bloco na página */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; 
 }
 
 /* Ajuste para tags e categorias */
@@ -105,12 +117,12 @@ header img {
 
     /*Cite Noticias */
 .noticia cite {
-    display: block; /* Faz o <cite> aparecer abaixo da imagem */
-    text-align: center; /* Centraliza o texto do crédito */
-    font-style: italic; /* Mantém o estilo do <cite> */
-    font-size: 14px; /* Ajusta o tamanho do texto */
-    color: #666; /* Deixa o crédito mais discreto */
-    margin-top: 5px; /* Dá um pequeno espaço entre a imagem e o <cite> */
+    display: block; 
+    text-align: center; 
+    font-style: italic; 
+    font-size: 14px; 
+    color: #666; 
+    margin-top: 5px; 
 }
 
 
