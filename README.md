@@ -11,7 +11,9 @@
  <br>
  <hr>
  <h3>30.01.2025:</h3>
- - Noticia 3 colocada no site
+ - Noticia 3 colocada no site <br>
+ - div's editadas <br>
+ - Css Noticia 3 adicionado
  <br>
  <hr>
 
