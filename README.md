@@ -29,6 +29,7 @@
     <ul>
         <li>Script.js</li>
         <li>Tela de carregamento </h1>
+        <li>Fav-Icon</li>
     </ul>
 <hr>
 </main>
