@@ -32,8 +32,12 @@
         <li>Fav-Icon</li>
     </ul>
 <hr>
+   <h3>02.02.2025 </h3>
+    <ul>
+        <li>Erro de código resolvido</li>
+        <li>Pequenas atualizações</h1>
 </main>
-
+<hr>
 <div align="center">
     <h1>SEM NOTICIAS REAIS</h1>
 </div>
