@@ -125,6 +125,29 @@ header img {
     margin-top: 5px; 
 }
 
+
+.noticia {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.noticia a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.noticia-img {
+    width: 300px; 
+    height: 200px;
+    object-fit: cover; 
+    transition: transform 0.3s; 
+}
+
+.noticia-img:hover {
+    transform: scale(1.05);
+}
+
+
 #preloader {
     position: fixed;
     width: 100%;
@@ -144,4 +167,19 @@ main, header {
 #preloader img {
     width: 100px;
     height: auto;
+}
+        /*Screen media */
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (min-width:767px) and (max-widht:1023px) 
+{
+    
+}
+
+@media screen and (min-width:1024px) 
+{
+    
 }
