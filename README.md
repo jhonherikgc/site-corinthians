@@ -36,6 +36,13 @@
     <ul>
         <li>Erro de código resolvido</li>
         <li>Pequenas atualizações</h1>
+<hr>
+   <h3>03.02.2025 </h3>
+    <ul>
+        <li>Página Nova - Clube</li>
+        <li>História do Corinthians</h1>
+        <li>Fontes ajustadas</li>
+<hr>
 </main>
 <hr>
 <div align="center">
