@@ -76,3 +76,11 @@ header img {
 {
     
 }
+
+.carousel-inner img {
+    width: 10px;
+    height: 30px;
+    max-width: 100%; /* Evita que a imagem estoure o layout */
+    object-fit: cover;
+    display: block; /* Garante que a imagem seja exibida corretamente */
+}

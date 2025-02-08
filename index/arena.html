@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arena</title>
     <link rel="stylesheet" href="/css/arena.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="icon" href="/img/corinthians-logo-0.png" sizes="16x16">
     <link rel="icon" href="/img/corinthians-logo-0.png" sizes="32x32">
     <script src="https://kit.fontawesome.com/9ca1cbd0f1.js" crossorigin="anonymous"></script>
@@ -31,8 +32,37 @@
         </nav>
     </header>
     <main>
-        <h1>Arena</h1>
+        <div class="container mt-5">
+            <h2 class="text-center">Arena Corinthians</h2>
+            <div id="arenaCarrossel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/img/MeoArena.jpg" class="d-block w-100" alt="Arena Corinthians 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/ArenaFT3.jpg" class="d-block w-100" alt="Arena Corinthians 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/ArenaFT1.jpg" class="d-block w-100" alt="Arena Corinthians 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/img/ArenaFT2.jpg" class="d-block w-100" alt="Arena Corinthians 4">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#arenaCarrossel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#arenaCarrossel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    <hr>
+    <section class="content-text">
+        <h1>Arena Corinthians</h1>
+        
+    </section>
     </main>
-    <script src="/js/script.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
