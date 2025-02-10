@@ -76,3 +76,18 @@ header img {
 {
     
 }
+
+.footer {
+    background-color: black; 
+    color: white; 
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer .social-icons a {
+    transition: 0.3s ease-in-out;
+}
+
+.footer .social-icons a:hover {
+    color: #ff0000; 
+}

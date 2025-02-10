@@ -90,8 +90,6 @@ header img {
     margin-top: 10px 0; 
 }
 
-    
-
 .noticia2 {
     width: 700px; 
     max-width: 100%;
@@ -179,4 +177,19 @@ header img {
 @media screen and (min-width:1024px) 
 {
         
+}
+
+.footer {
+    background-color: black; 
+    color: white; 
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer .social-icons a {
+    transition: 0.3s ease-in-out;
+}
+
+.footer .social-icons a:hover {
+    color: #ff0000; 
 }
