@@ -78,11 +78,14 @@ header img {
 }
 
 .inicio-historia h1, h3 {
-    width: 100%; 
-    margin: 50px 100px;
-    font-family: 'raleway', Helvetica, sans-serif;
+    margin-top: 50px;
+    width: 700px; 
+    max-width: 100%;
+    margin: 50px 100px; 
+    font-family: 'Raleway', Helvetica, sans-serif;
     text-align: left; 
 }
+
 
 .inicio-historia img {
     display: flex; 
@@ -115,4 +118,19 @@ header img {
     font-family: 'Raleway', helvetica, sans-serif;
     margin: 50px 100px;
     
+}
+
+.footer {
+    background-color: black; 
+    color: white; 
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer .social-icons a {
+    transition: 0.3s ease-in-out;
+}
+
+.footer .social-icons a:hover {
+    color: #ff0000; 
 }
