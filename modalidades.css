@@ -76,11 +76,59 @@ header img {
     
 }
 
+section {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+.accordion {
+    color: rgb(0, 0, 0); 
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+.accordion:hover {
+    background-color: #444;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none; 
+    background-color: #f1f1f1;
+    overflow: hidden;
+}
+
+.panel ul {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.panel ul li {
+    margin: 5px 0;
+}
+
+.panel ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.panel ul li a:hover {
+    color: #b70000;
+}
+
+
 .footer {
     background-color: black; 
     color: white; 
     padding: 20px 0;
     font-size: 14px;
+    margin-bottom: -90px;
 }
 
 .footer .social-icons a {
