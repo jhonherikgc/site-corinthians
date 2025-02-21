@@ -83,7 +83,7 @@ header img {
 }
 
 .titulo-materia {
-    margin: 50px 100px;
+    margin: 30px 100px;
     font-family: 'Raleway';
 }
 
@@ -97,7 +97,7 @@ header img {
 .texto-materia p {
     width: 700px; 
     max-width: 100%;
-    margin: 50px 100px; 
+    margin: 20px 100px; 
     font-family: 'Raleway', Helvetica, sans-serif;
     text-align: left;
 }
