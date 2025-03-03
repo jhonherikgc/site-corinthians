@@ -88,14 +88,19 @@ header img {
     font-family: 'Raleway';
 }
 
+.titulo-materia {
+    margin: 30px 100px;
+    font-family: 'Raleway';
+}
+
 .titulo-materia img {
     display: flex; 
-    width: 700px; 
+    width: 800px; 
     height: auto;
     margin-bottom: 15px;
 }
 
-.texto-materia p {
+.texto-materia p,h3, li{
     width: 700px; 
     max-width: 100%;
     margin: 20px 100px; 
@@ -103,6 +108,7 @@ header img {
     text-align: left;
 }
 
-.footer {
-    margin-top: 100px;
+.tags-categorias {
+    font-family: 'Raleway';
+    margin: 50px 100px;
 }
