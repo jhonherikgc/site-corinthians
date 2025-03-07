@@ -103,6 +103,11 @@ header img {
     text-align: left;
 }
 
+.tags-categorias {
+    font-family: 'Raleway';
+    margin: 50px 100px;
+}
+
 .footer {
     margin-top: 100px;
 }
