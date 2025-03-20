@@ -11,7 +11,6 @@
     <script src="https://kit.fontawesome.com/9ca1cbd0f1.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!-- Cabeçalho com logo e título -->
     <header>
         <nav class="nav-header">
             <div class="menu-esquerda">
@@ -20,26 +19,27 @@
                 <a href="arena.html">Arena</a>
             </div>
     
-        <div class="Menu-img">
-         <a href="Inicio.html"><img src="/img/corinthians-logo-0.png" alt="Logo Corinthians" style="height: 200px; width:200px; float: center;"></a>
-         </div>
+            <div class="Menu-img">
+                <a href="Inicio.html"><img src="/img/corinthians-logo-0.png" alt="Logo Corinthians" style="height: 200px; width:200px;"></a>
+            </div>
     
-        <div class="menu-direita">
-            <a href="jogos.html">Jogos</a>
-            <a href="mercado.html">Mercado</a>
-            <a href="modalidades.html">Modalidades</a>
-        </div>
+            <div class="menu-direita">
+                <a href="jogos.html">Jogos</a>
+                <a href="mercado.html">Mercado</a>
+                <a href="modalidades.html">Modalidades</a>
+            </div>
         </nav>
     </header>
     <main>
         <div class="titulo-pagina">
             <h1>Mercado</h1>
         </div>
+        <hr>
         <div class="container mt-5">
-            <div id="arenaCarrossel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+            <div id="mercadoCarrossel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="/img/CamisetaHomem" class="d-block w-100" alt="Para Homens">
+                        <img src="/img/camisetaMasculina.webp" class="d-block w-100" alt="Para Homens">
                     </div>
                     <div class="carousel-item">
                         <img src="/img/camisetaFeminina.webp" class="d-block w-100" alt="Para Mulheres">
@@ -51,10 +51,10 @@
                         <img src="/img/ChuteirasCorinthians.jpg" class="d-block w-100" alt="Chuteiras">
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#arenaCarrossel" data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#mercadoCarrossel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#arenaCarrossel" data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#mercadoCarrossel" data-bs-slide="next">
                     <span class="carousel-control-next-icon"></span>
                 </button>
             </div>
@@ -62,46 +62,38 @@
         <hr>
         <section>
             <div class="titulo-cosmeticos">
-            <h1>Cosméticos.</h1>
-        </div>
+                <h1>Cosméticos</h1>
+            </div>
             <div class="container">
                 <div class="cosmeticos">
-                    <h3></h3>
-                    <a href=""> <!--Linkar com uma nova pagina de compras relacionada ao produto-->
-                    <img src="/img/News1.png" alt="CorinthiansNews1" style="height: 300px;" width="350px">
+                    <a href="#">
+                        <img src="/img/News1.png" alt="Corinthians News 1" style="height: 300px; width: 350px;">
                     </a>
                 </div>
                 <div class="cosmeticos">
-                    <h3></h3>
-                    <a href="">
-                    <img src="/img/News2.png" alt="Noticia2" style="height: 300px;" width="350px">
+                    <a href="#">
+                        <img src="/img/News2.png" alt="Notícia 2" style="height: 300px; width: 350px;">
                     </a>
                 </div>
-                    <div class="cosmeticos">
-                        <h3></h3>
-                        <a href="">
-                        <img src="/img/News3.png" alt="Noticia3" style="height: 300px;" width="350px">
-                        </a>
-                    </div>
-            </div>
+                <div class="cosmeticos">
+                    <a href="#">
+                        <img src="/img/News3.png" alt="Notícia 3" style="height: 300px; width: 350px;">
+                    </a>
+                </div>
             </div>
         </section>
     </main>
-    <section>
-        <footer class="footer bg-black text-white py-4">
-            <div class="container text-center">
-                <p class="mb-2">&copy; 2025 - Site do Corinthians. Todos os direitos reservados.</p>
-                <p class="mb-2">Feito por Jhon</p>
-        
-                <!-- Ícones das redes sociais -->
-                <div class="social-icons">
-                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
-                    <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
-                    <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
-                </div>
+    <footer class="footer bg-black text-white py-4">
+        <div class="container text-center">
+            <p class="mb-2">&copy; 2025 - Site do Corinthians. Todos os direitos reservados.</p>
+            <p class="mb-2">Feito por Jhon</p>
+            <div class="social-icons">
+                <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
             </div>
-        </footer>
-    </section>
-    <script src="/js/script.js"></script>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
