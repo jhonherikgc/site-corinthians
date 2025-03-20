@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Raleway', Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -77,6 +77,111 @@ header img {
     
 }
 
+.titulo-pagina h1 {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    font-family: 'Raleway';
+}
+
+.titulo-cosmeticos h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-family: 'Raleway';
+}
+
+.carousel {
+    margin: 50px 100px;
+    max-width: 50%;
+    width: 85%; 
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.carousel-inner img {
+    width: 13%; 
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.carousel-control-next , .carousel-control-next-icon, .carousel-control-prev-icon{
+    color: black;
+    background-color: black;
+}
+
+.title h1 {
+    margin-top: 900px ; 
+    width: 700px; 
+    margin: 50px 100px; 
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: left; 
+}
+
+.content-text1 h1, p {
+    width: 700px; 
+    max-width: 100%;
+    margin: 50px 100px; 
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: left; 
+}
+
+.content-text2 h1, p {
+    width: 700px; 
+    max-width: 100%;
+    margin: 50px 100px; 
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: left; 
+}
+
+.content-text2 img { 
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 50px 100px;
+    height: 50%;
+    max-width: 100%;
+}
+
+.content-text2 cite {
+    margin-top: -50px 0;
+    margin:100px;
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: left; 
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); 
+    gap: 30px; 
+    justify-items: center; 
+    text-align: center;
+    padding: 20px;
+    font-family: 'Raleway';
+}
+
+.cosmeticos img {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    border: solid 1px black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cosmeticos img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+   /*media screen */ 
+.cosmeticos-container {
+    max-width: 1400px;  
+    margin: 0 auto; 
+}
+
+@media screen and (min-width: 1440px) {
+    .cosmeticos-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
 
 .footer {
     background-color: black; 
