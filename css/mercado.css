@@ -79,8 +79,9 @@ header img {
 
 .titulo-pagina h1 {
     margin-top: 60px;
-    margin-bottom: 50px;
+    margin: 30px 100px;
     font-family: 'Raleway';
+    
 }
 
 .mercado-flex img:hover {
@@ -90,6 +91,7 @@ header img {
 .mercado-flex img { 
     filter: brightness(70%);
     transition: filter 0.3s ease-in-out;
+    border: solid 2px black;
 }
 
 .mercado-flex p { 
