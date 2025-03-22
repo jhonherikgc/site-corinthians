@@ -83,63 +83,25 @@ header img {
     font-family: 'Raleway';
 }
 
+.mercado-flex img:hover {
+    filter: brightness(100%);
+}
+
+.mercado-flex img { 
+    filter: brightness(70%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.mercado-flex p { 
+    color: black;
+    text-shadow: #000000;
+}
+
 .titulo-cosmeticos h1 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
     font-family: 'Raleway';
-}
-
-.carousel {
-    margin: 50px 100px;
-    max-width: 50%;
-    width: 85%; 
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.carousel-inner img {
-    width: 13%; 
-    height: auto;
-    margin-bottom: 15px;
-}
-
-.carousel-control-next , .carousel-control-next-icon, .carousel-control-prev-icon{
-    color: black;
-    background-color: black;
-}
-
-.title h1 {
-    margin-top: 900px ; 
-    width: 700px; 
-    margin: 50px 100px; 
-    font-family: 'Raleway', Helvetica, sans-serif;
-    text-align: left; 
-}
-
-.content-text1 h1, p {
-    width: 700px; 
-    max-width: 100%;
-    margin: 50px 100px; 
-    font-family: 'Raleway', Helvetica, sans-serif;
-    text-align: left; 
-}
-
-.content-text2 h1, p {
-    width: 700px; 
-    max-width: 100%;
-    margin: 50px 100px; 
-    font-family: 'Raleway', Helvetica, sans-serif;
-    text-align: left; 
-}
-
-.content-text2 img { 
-    display: flex;
-    align-items: center;
-    width: 50%;
-    margin: 50px 100px;
-    height: 50%;
-    max-width: 100%;
 }
 
 .container {
