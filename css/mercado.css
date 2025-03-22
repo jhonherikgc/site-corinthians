@@ -92,37 +92,16 @@ header img {
     transition: filter 0.3s ease-in-out;
 }
 
+.mercado-flex p { 
+    color: black;
+    text-shadow: #000000;
+}
+
 .titulo-cosmeticos h1 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
     font-family: 'Raleway';
-}
-
-
-.content-text1 h1, p {
-    width: 700px; 
-    max-width: 100%;
-    margin: 50px 100px; 
-    font-family: 'Raleway', Helvetica, sans-serif;
-    text-align: left; 
-}
-
-.content-text2 h1, p {
-    width: 700px; 
-    max-width: 100%;
-    margin: 50px 100px; 
-    font-family: 'Raleway', Helvetica, sans-serif;
-    text-align: left; 
-}
-
-.content-text2 img { 
-    display: flex;
-    align-items: center;
-    width: 50%;
-    margin: 50px 100px;
-    height: 50%;
-    max-width: 100%;
 }
 
 .container {
