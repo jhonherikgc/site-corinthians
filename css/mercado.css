@@ -118,11 +118,9 @@ header img {
 }
 
 .acessorios img {
-    width: 100%;
-    max-width: 350px;
-    height: 350px;
+    filter: brightness(70%);
+    transition: filter 0.3s ease-in-out;
     border: solid 2px black;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .acessorios p {
@@ -131,8 +129,7 @@ header img {
 }
 
 .acessorios img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    filter: brightness(100%);
 }
 
 .acessorios-container {
