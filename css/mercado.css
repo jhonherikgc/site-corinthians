@@ -88,6 +88,7 @@ header img {
     filter: brightness(100%);
 }
 
+
 .mercado-flex img { 
     filter: brightness(70%);
     transition: filter 0.3s ease-in-out;
@@ -99,7 +100,7 @@ header img {
     text-shadow: #000000;
 }
 
-.titulo-cosmeticos h1 {
+.titulo-acessorios h1 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
@@ -116,26 +117,31 @@ header img {
     font-family: 'Raleway';
 }
 
-.cosmeticos img {
+.acessorios img {
     width: 100%;
     max-width: 350px;
     height: 350px;
-    border: solid 1px black;
+    border: solid 2px black;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.cosmeticos img:hover {
+.acessorios p {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    text-align: center; 
+}
+
+.acessorios img:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.cosmeticos-container {
+.acessorios-container {
     max-width: 1400px;  
     margin: 0 auto; 
 }
 
 @media screen and (min-width: 1440px) {
-    .cosmeticos-container {
+    .acessorios-container {
         grid-template-columns: repeat(4, 1fr);
     }
 }
