@@ -98,6 +98,7 @@ header img {
 .mercado-flex p { 
     color: black;
     text-shadow: #000000;
+    margin-bottom: 10px;
 }
 
 .titulo-acessorios h1 {
@@ -125,7 +126,8 @@ header img {
 
 .acessorios p {
     font-family: 'Raleway', Helvetica, sans-serif;
-    text-align: center; 
+    text-align: center;
+
 }
 
 .acessorios img:hover {
@@ -156,4 +158,22 @@ header img {
 
 .footer .social-icons a:hover {
     color: #ff0000; 
+}
+
+.btn-comprar {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: left;
+    margin-top: 10px;
+    border-radius: 10%;
+}
+
+.btn-comprar:hover {
+    background-color: #ffffff; /* Vermelho mais escuro */
+}
+
+
+.btn-comprar:hover {
+    background-color: #ff002b; /* Muda a cor ao passar o mouse */
 }
