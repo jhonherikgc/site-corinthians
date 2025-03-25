@@ -131,31 +131,6 @@ header img {
     text-align: left; 
 }
 
-.btn-comprar6 {
-    position: fixed; /* Fixa o botão na tela */
-    bottom: 20px; /* Distância do rodapé */
-    left: 20px; /* Distância do canto esquerdo */
-    width: 60px;
-    height: 60px;
-    background-color: #E4405F; /* Vermelho */
-    color: white;
-    border: none;
-    border-radius: 50%; /* Torna o botão redondo */
-    font-size: 24px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s ease;
-    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
-}
-
-.btn-comprar6:hover {
-    background-color: #C1354D; /* Vermelho mais escuro */
-}
-
-
 .footer {
     background-color: black; 
     color: white; 
