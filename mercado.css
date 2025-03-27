@@ -77,11 +77,15 @@ header img {
     
 }
 
+.price p, s{
+    display: flex;
+    text-align: left;
+}
+
 .titulo-pagina h1 {
     margin-top: 60px;
     margin: 30px 100px;
     font-family: 'Raleway';
-    
 }
 
 .mercado-flex img:hover {
