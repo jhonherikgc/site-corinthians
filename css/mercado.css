@@ -105,6 +105,13 @@ header img {
     margin-bottom: 10px;
 }
 
+.mercado-flex cite {
+    display: flex;
+    color: red;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .titulo-acessorios h1 {
     text-align: center;
     margin-top: 20px;
@@ -132,6 +139,12 @@ header img {
     font-family: 'Raleway', Helvetica, sans-serif;
     text-align: center;
 
+}
+
+.acessorios cite {
+    display: flex;
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .acessorios img:hover {
@@ -162,22 +175,4 @@ header img {
 
 .footer .social-icons a:hover {
     color: #ff0000; 
-}
-
-.btn-comprar {
-    display: flex;
-    background-color: black;
-    color: white;
-    align-items: left;
-    margin-top: 10px;
-    border-radius: 10%;
-}
-
-.btn-comprar:hover {
-    background-color: #ffffff; /* Vermelho mais escuro */
-}
-
-
-.btn-comprar:hover {
-    background-color: #ff002b; /* Muda a cor ao passar o mouse */
 }
