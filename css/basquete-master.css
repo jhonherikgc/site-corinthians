@@ -102,6 +102,10 @@ header img {
     margin: 20px 100px; 
     font-family: 'Raleway', Helvetica, sans-serif;
     text-align: justify;
+<<<<<<< HEAD
+=======
+    text-indent: 20px;
+>>>>>>> 8872148ae3862f975701cbc571002fbbff10ef6d
 }
 
 .tags-categorias {
