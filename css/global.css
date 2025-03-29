@@ -1,116 +1,78 @@
 /* NAVBAR */
 .nav-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    background: black;
-    color: white;
-    position: relative;
-  }
-  
-  /* Menu normal (desktop) */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: black;
+  color: white;
+  position: relative;
+}
+
+/* Menu normal (desktop) */
+.menu-esquerda, .menu-direita {
+  display: flex;
+  gap: 20px;
+}
+
+.menu-esquerda a, .menu-direita a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Logo Central */
+.menu-img img {
+  height: 120px;
+  width: 120px;
+}
+
+/* Ícone do menu mobile */
+.mobile-menu {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+  right: 20px;
+}
+
+/* Dropdown Mobile */
+.mobile-dropdown {
+  display: none;
+  flex-direction: column;
+  background: black;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  width: 200px;
+  padding: 10px;
+}
+
+.mobile-dropdown a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
   .menu-esquerda, .menu-direita {
-    display: flex;
-    gap: 20px;
+    display: none;
   }
-  
-  .menu-esquerda a, .menu-direita a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
+
+  .menu-img {
+    text-align: center;
+    flex: 1;
   }
-  
-  /* Logo Central */
-  .menu-img img {
-    height: 120px;
-    width: 120px;
-  }
-  
-  /* Ícone do menu mobile */
+
   .mobile-menu {
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-    color: white;
-    position: absolute;
-    right: 20px;
-  }
-  
-  /* Dropdown Mobile */
-  .mobile-dropdown {
-    display: none;
-    flex-direction: column;
-    background: black;
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    width: 200px;
-    padding: 10px;
-  }
-  
-  .mobile-dropdown a {
-    padding: 10px;
-    text-decoration: none;
-    color: white;
     display: block;
   }
-  
-  /* Responsividade */
-  @media (max-width: 768px) {
-    .menu-esquerda, .menu-direita {
-      display: none;
-    }
-  
-    .menu-img {
-      text-align: center;
-      flex: 1;
-    }
-  
-    .mobile-menu {
-      display: block;
-    }
-  }
-  
-  /* Mostrar dropdownativado */
-  .show {
-    display: flex;
-  }
-  
-  /* Tipografia Responsiva */
-  h1 {
-    font-size: 2.5rem;
-  }
-  
-  p {
-    font-size: 1rem;
-    line-height: 1.6;
-  }
-  
-  /* Media Queries */
-  @media (max-width: 1024px) {
-    html {
-      font-size: 15px;
-    }
-  
-    .container {
-      width: 95%;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    html {
-      font-size: 14px;
-    }
-  
-    .grid-container {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    html {
-      font-size: 13px;
-    }
-  }
-  
+}
+
+/* Mostrar dropdown quando ativado */
+.show {
+  display: flex;
+}
