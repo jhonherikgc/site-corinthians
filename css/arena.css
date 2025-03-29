@@ -63,20 +63,6 @@ header img {
     color: #ff0000;
 }
 
-@media screen and (max-width: 767px) {
-
-}
-
-@media screen and (min-width:767px) and (max-widht:1023px) 
-{
-    
-}
-
-@media screen and (min-width:1024px) 
-{
-    
-}
-
 .carousel {
     margin: 50px 100px;
     max-width: 100%;
