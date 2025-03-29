@@ -108,11 +108,12 @@ header img {
 }
 
 .content-text2 h1, p {
+    text-indent: 20px;
     width: 700px; 
     max-width: 100%;
     margin: 50px 100px; 
     font-family: 'Raleway', Helvetica, sans-serif;
-    text-align: left; 
+    text-align: justify; 
 }
 
 .content-text2 img { 
