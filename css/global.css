@@ -144,3 +144,53 @@
     width: 100%; 
   }
 }
+
+/*Clube Responsavidade */
+
+@media (max-width: 768px) {
+  .inicio-historia h1, h3 {
+    margin-top: 80px;
+    padding-top: 30px;
+    max-width: 50%;
+    text-align: left;  
+  }
+}
+
+@media (max-width: 768px) {
+  .titulos h1, 
+  .textos p {
+    text-align: justify;
+    margin: 20px;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer p {
+    background-color: black; 
+    color: white; 
+    padding: 20px;
+    font-size: 14px;
+    text-align: justify;
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+.footer .social-icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: justify;
+    padding: 15px;
+    font-size: 12px;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}
