@@ -202,3 +202,68 @@
 body {
   overflow-x: hidden;
 }
+
+/* Media queries News*/
+@media (max-width: 768px) {
+  .noticia1 h1 {
+    margin-top: 90px;
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .noticia1,
+  .noticia2,
+  .noticia3 {
+    margin: 20px;
+  }
+
+  .noticia2 h1, .noticia2 h3,
+  .noticia3 h1, .noticia3 h3 {
+    margin-top: 20px;
+    padding-top: 20px;
+  }
+
+  .noticia1 h1, .noticia1 h3, .noticia1 img,
+  .noticia2 h1, .noticia2 h3, .noticia2 img,
+  .noticia3 h1, .noticia3 h3, .noticia3 img {
+    text-align: left;
+    margin: 20px 0;
+    width: auto;
+    max-width: 75%;
+  }
+
+  .texto-noticia1 p,
+  .noticia2 p,
+  .noticia3-textos p,
+  .textos p {
+    text-align: left;
+    margin: 20px;
+    width: auto;
+    max-width: 75%;
+  }
+
+  .secao1 img,
+  .secao2 img,
+  .secao3 img {
+    width: 75%;
+    height: auto;
+    margin: 20px;
+  }
+
+  .footer {
+    text-align: justify;
+    padding: 15px;
+    font-size: 12px;
+  }
+
+  .footer p {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    text-align: left;
+    width: 75%;
+    overflow: hidden;
+  }
+}

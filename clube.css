@@ -87,7 +87,7 @@ header img {
     max-width: 100%;
     margin: 50px 100px; 
     font-family: 'Raleway', helvetica, sans-serif;
-    text-align: justify;
+    text-align: left;
     text-indent: 20px; 
 }
 
@@ -96,7 +96,7 @@ header img {
     max-width: 100%;
     margin: 50px 100px; 
     font-family: 'Raleway', helvetica, sans-serif;
-    text-align: justify; 
+    text-align: left; 
 }
 
 .tags-categorias {
