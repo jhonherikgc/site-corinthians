@@ -243,6 +243,10 @@ body {
     max-width: 75%;
   }
 
+  .tags-categorias hr {
+    width: 55%;
+  }
+
   .secao1 img,
   .secao2 img,
   .secao3 img {
