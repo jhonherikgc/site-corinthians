@@ -66,13 +66,11 @@ header img {
     /* Alinhamento de Div's de acordo com o Texto e imagem */
 
 .noticia1 {
-    margin-top: 50px;
     width: 700px; 
     max-width: 100%;
     margin: 50px 100px; 
     font-family: 'Raleway', Helvetica, sans-serif;
-    text-align: justify;
-    text-indent: 20px; 
+    text-align: left; 
 }
 
 .noticia1 h1 {
@@ -163,21 +161,6 @@ header img {
 .noticia3 h1,
 .noticia3 p {
     margin: 10px 0; 
-}
-
-
-@media screen and (max-width: 767px) {
-
-}
-    
-@media screen and (min-width:767px) and (max-widht:1023px) 
-{
-        
-}
-    
-@media screen and (min-width:1024px) 
-{
-        
 }
 
 .footer {
