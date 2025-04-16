@@ -309,3 +309,47 @@ body {
     overflow: hidden;
   }
 }
+
+/* Media queries Mercado */
+@media (max-width: 768px) {
+  .titulo-pagina h1 {
+    margin-top: 80px;
+    padding-top: 30px;
+  }
+
+  .mercado-flex {
+    display: flex;
+    flex-direction: column; /* Empilha os itens verticalmente */
+    align-items: center;     /* Centraliza os itens */
+  }
+
+  .mercado-flex img {
+    width: 65%;
+    height: auto;
+    margin: 5px 0;
+  }
+
+  .mercado-flex p,
+  .mercado-flex cite,
+  .price p {
+    text-align: center;
+    margin: 10px;
+    max-width: 90%;
+  }
+
+  .footer {
+    text-align: justify;
+    padding: 15px;
+    font-size: 12px;
+  }
+
+  .footer p {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    text-align: left;
+    width: 75%;
+    overflow: hidden;
+  }
+}
