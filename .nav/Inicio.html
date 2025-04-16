@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Início - Corinthians</title>
     <link rel="stylesheet" href="/css/inicio.css">
+    <link rel="stylesheet" href="/css/global.css">
     <link rel="icon" href="/img/corinthians-logo-0.png" sizes="16x16">
     <link rel="icon" href="/img/corinthians-logo-0.png" sizes="32x32">
     <script src="https://kit.fontawesome.com/9ca1cbd0f1.js" crossorigin="anonymous"></script>
@@ -24,6 +25,19 @@
          </div>
     
         <div class="menu-direita">
+            <a href="jogos.html">Jogos</a>
+            <a href="mercado.html">Mercado</a>
+            <a href="modalidades.html">Modalidades</a>
+        </div>
+
+        <!--Menu hamburguer para mobile-media-queries-->
+        <div class="mobile-menu" onclick="toggleMenu()">☰</div>
+
+        <!-- Menu dropdown para mobile -->
+        <div class="mobile-dropdown">
+            <a href="clube.html">Clube</a>
+            <a href="ultimasnoticias.html">Notícias</a>
+            <a href="arena.html">Arena</a>
             <a href="jogos.html">Jogos</a>
             <a href="mercado.html">Mercado</a>
             <a href="modalidades.html">Modalidades</a>
@@ -60,24 +74,24 @@
                     <h3>Corinthians é superado pelo São Paulo no MorumBis</h3>
                     <a href="ultimasnoticias.html#secao1">
                     <img src="/img/News1.png" alt="CorinthiansNews1" style="height: 300px;" width="350px">
-                    <hr>
                     <p><cite>25.01.2025 - 21h37 - Futebol</cite></p>
+                    <hr>
                     </a>
                 </div>
                 <div class="noticia">
                     <h3>Corinthians fecha patrocínios para a final da Copinha Sicredi 2025</h3>
                     <a href="ultimasnoticias.html#secao2">
                     <img src="/img/News2.png" alt="Noticia2" style="height: 300px;" width="350px">
-                    <hr>
                     <p><cite>25.01.2025 - 18h48 - Futebol</cite></p>
+                    <hr>
                     </a>
                 </div>
                     <div class="noticia">
                         <h3>Timãozinho é superado pelo São Paulo e fica com o vice da Copinha Sicredi 2025</h3>
                         <a href="ultimasnoticias.html#secao3">
                         <img src="/img/News3.png" alt="Noticia3" style="height: 300px;" width="350px">
-                        <hr>
                         <p><cite>25.01.2025 - 12h04 - Categoria de Base</cite></p>
+                        <hr>
                         </a>
                     </div>
             </div>
@@ -100,5 +114,6 @@
         </section>
     </main>
     <script src="/js/script.js"></script>
+    <script src="/js/menu.js"></script>
 </body>
 </html>
