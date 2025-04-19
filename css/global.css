@@ -763,3 +763,67 @@ body {
     box-sizing: border-box;
   }
 }
+
+/* Media queries MMA */
+
+@media (max-width: 768px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 2%;
+  }
+
+  .titulo-materia h1 {
+    margin-top: 80px;
+    font-size: 24px;
+  }
+
+  .titulo-materia img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 16px 0;
+    margin-left: -100px;
+  }
+
+  .titulo-materia h1, cite {
+    margin-top: 80px;
+    padding-top: 50px;
+    margin: 12px 0;
+    line-height: 1.5;
+    width: 100%;
+    word-break: break-word;
+    margin-left: -100px;
+  }
+.texto-materia p {
+  margin: 12px 0;
+  font-size: 16px;
+  line-height: 1.5;
+  width: 100%;
+  word-break: break-word;
+  
+}
+  .footer {
+    margin-top: 80px;
+    padding: 15px 16px;
+    font-size: 12px;
+    text-align: justify;
+  }
+  
+  .footer p {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
