@@ -271,6 +271,17 @@ body {
     margin: 20px;
   }
 
+  .secao1 p,i,
+  .secao2 p,i,
+  .secao3 p, i {
+    text-align: right;
+    margin: 12px 0;
+    margin-right: -200;
+    font-size: 16px;
+    line-height: 1.5;
+    width: 90%;
+    word-break: break-word;
+  }
 
   .footer {
     text-align: justify;
