@@ -520,6 +520,71 @@ body {
   }
 }
  
+/* Media Queries Inicio para telas Maiores */ 
+
+/* Estilos para telas maiores */
+@media (min-width: 1367px) {
+  .inicio-h1 {
+    padding: 0 10%;
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .inicio-h1 h1,
+  .inicio-h1 h3,
+  .inicio-h1 p {
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .textos-noticia p {
+    padding: 0 10%;
+    margin-left: 0;
+  }
+
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: space-between;
+    padding: 0 10%;
+  }
+
+  .noticia {
+    width: 100%;
+  }
+
+  .noticia img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .footer {
+    background-color: black;
+    padding: 40px 0;
+    width: 100%;
+  }
+
+  .footer p {
+    color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px auto;
+    width: 90%;
+  }
+}
+
+ 
+
 /* Media queries paginas Sports*/
 
 @media (max-width: 768px) {
