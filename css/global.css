@@ -376,6 +376,66 @@ body {
   }
 }
 
+/* Media queries Mercado para monitores Maiores */
+@media (min-width: 1366px) {
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+    box-sizing: border-box;
+  }
+
+  .inicio-historia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+  }
+
+  .inicio-historia h1,
+  .inicio-historia h3 {
+    text-align: left;
+    margin: 0;
+    flex: 1;
+  }
+
+  .inicio-historia img {
+    width: 40%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0;
+  }
+
+  .textos p {
+    width: 100%;
+    max-width: 1000px;
+    margin: 16px auto;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+  }
+
+  .titulos h1 {
+    font-size: 36px;
+    text-align: center;
+    margin: 60px auto 20px;
+  }
+
+  .tags-categorias {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .footer p {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+
 /*Media queries Inicio */
 @media (max-width: 768px) {
   html, body {
