@@ -459,7 +459,7 @@ body {
   }
 
   .inicio-h1 img {
-    margin-left: -00px;
+    margin-left: -100px;
     padding-top: 10px;
   }
 
@@ -500,7 +500,7 @@ body {
   text-align: center;
   margin-top: -60px;
   margin-left: auto;
-  padding-top: 35px;
+  padding-top: 3px;
 }
 
   .noticia h3 {
@@ -531,6 +531,12 @@ body {
 
 /* Estilos para telas maiores */
 @media (min-width: 1367px) {
+  body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
   .inicio-h1 {
     padding: 0 10%;
     box-sizing: border-box;
@@ -568,20 +574,23 @@ body {
   }
 
   .footer {
-    background-color: black;
+    width: 180%; /* usa a largura total da tela */
+    margin: auto;
+    margin-left: -450px;
     padding: 40px 0;
-    width: 100%;
-  }
-
-  .footer p {
+    background-color: black;
     color: white;
+    box-sizing: border-box;
+  }
+  
+  .footer p {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 16px;
     font-size: 16px;
     text-align: left;
   }
-
+  
   hr {
     border: none;
     border-top: 1px solid #ccc;
@@ -648,6 +657,13 @@ body {
     line-height: 1.5;
     width: 100%;
     word-break: break-word;
+  }
+
+  .noticia cite {
+    text-align: center;
+    margin: center;
+    margin-top: -30px;
+    padding-top: -10px;
   }
 
   .tags-categorias {
