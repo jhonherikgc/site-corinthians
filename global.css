@@ -496,6 +496,13 @@ body {
     margin: 10px 0;
   }
 
+.noticia cite {
+  text-align: center;
+  margin-top: -60px;
+  margin-left: auto;
+  padding-top: 35px;
+}
+
   .noticia h3 {
     text-align: center;
     margin: 10px auto;
@@ -582,8 +589,6 @@ body {
     width: 90%;
   }
 }
-
- 
 
 /* Media queries paginas Sports*/
 
