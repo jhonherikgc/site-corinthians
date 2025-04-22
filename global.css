@@ -303,21 +303,16 @@ body {
 /* Media queries Modalidades */
 
 @media (max-width: 768px) {
-  .competitivas img {
+  .competitivas img, .associativas img, .paradesporto img {
     width: 75%;
     height: auto;
-    margin: 20px;
+    margin: auto;
   }
-  .associativas img {
-    width: 75%;
-    height: auto;
-    margin: 20px;
-  }
-  
-  .paradesporto img {
-    width: 75%;
-    height: auto;
-    margin: 20px;
+
+  .competitivas cite, .associativas cite, .paradesporto cite {
+    text-align: center;
+    margin-left: auto;
+    margin-top: -40px;
   }
 
   .footer {
@@ -833,6 +828,7 @@ body {
   text-align: left;
   margin: 12px 0;
   font-size: 16px;
+  line-height: 1.5;
   width: 100%;
   word-break: break-word;
   
