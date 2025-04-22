@@ -693,7 +693,7 @@ body {
 .titulo-materia ul,li {
   text-align: left;
   margin: 12px 0;
-  margin-left: -50px;
+  margin-left: -100px;
   font-size: 16px;
   line-height: 1.5;
   width: 100%;
@@ -830,9 +830,9 @@ body {
     margin-left: -100px;
   }
 .texto-materia p {
+  text-align: left;
   margin: 12px 0;
   font-size: 16px;
-  line-height: 1.5;
   width: 100%;
   word-break: break-word;
   
