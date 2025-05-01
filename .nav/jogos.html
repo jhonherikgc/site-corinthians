@@ -1,70 +1,229 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jogos</title>
     <link rel="stylesheet" href="/css/jogos.css">
     <link rel="stylesheet" href="/css/global.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <link rel="icon" href="/img/corinthians-logo-0.png" sizes="16x16">
-    <link rel="icon" href="/img/corinthians-logo-0.png" sizes="32x32">
-    <script src="https://kit.fontawesome.com/9ca1cbd0f1.js" crossorigin="anonymous"></script>
+	<title> Próximos jogos do Corinthians </title>
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <link rel="shortcut icon" href="/img/corinthians-logo-0.png" sizes="16x16 32x32 48x48" type="image/png" />
+	<!-- manifest -->
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1"/>
+    <link rel="image_src" href="https://api.meutimao.com.br/img/share/proximos-jogos-do-corinthians.jpg" />
+    <meta name="script" content="-jogo-lista-proximos"/>
+    <meta name="google-signin-client_id" content="760323263491-l1n6f1nl5bm6m3nh3skpcl3m0vmsns5o.apps.googleusercontent.com"/>
+    <link href="//api.meutimao.com.br/css/min/default.css?v=495495" rel="stylesheet" type="text/css" />
+    <link href="//api.meutimao.com.br/css/min/agenda.css?v4=6495" rel="stylesheet" type="text/css"/>   
+    <link href="//api.meutimao.com.br/css/min/jogo-lista.css?v4=57495" rel="stylesheet" type="text/css"/>
 </head>
-<body>
-    <!-- Cabeçalho com logo e título -->
-    <header>
-        <nav class="nav-header">
-            <div class="menu-esquerda">
+	<body>
+        <header>
+            <nav class="nav-header">
+                <div class="menu-esquerda">
+                    <a href="/.nav/clube.html">Clube</a>
+                    <a href="/.nav/ultimasnoticias.html">Notícias</a>
+                    <a href="/.nav/arena.html">Arena</a>
+                </div>
+        
+            <div class="Menu-img">
+             <a href="/.nav/Inicio.html"><img src="/img/corinthians-logo-0.png" alt="Logo Corinthians" style="height: 200px; width:200px; float: center;"></a>
+             </div>
+        
+            <div class="menu-direita">
+                <a href="/.nav/jogos.html">Jogos</a>
+                <a href="/.nav/mercado.html">Mercado</a>
+                <a href="/.nav/modalidades.html">Modalidades</a>
+            </div>
+    
+            <!--Menu hamburguer para mobile-media-queries-->
+            <div class="mobile-menu" onclick="toggleMenu()">☰</div>
+    
+            <!-- Menu dropdown para mobile -->
+            <div class="mobile-dropdown">
                 <a href="/.nav/clube.html">Clube</a>
                 <a href="/.nav/ultimasnoticias.html">Notícias</a>
                 <a href="/.nav/arena.html">Arena</a>
+                <a href="/.nav/jogos.html">Jogos</a>
+                <a href="/.nav/mercado.html">Mercado</a>
+                <a href="/.nav/modalidades.html">Modalidades</a>
             </div>
-    
-        <div class="Menu-img">
-         <a href="/.nav/Inicio.html"><img src="/img/corinthians-logo-0.png" alt="Logo Corinthians" style="height: 200px; width:200px; float: center;"></a>
-         </div>
-    
-        <div class="menu-direita">
-            <a href="/.nav/jogos.html">Jogos</a>
-            <a href="/.nav/mercado.html">Mercado</a>
-            <a href="/.nav/modalidades.html">Modalidades</a>
-        </div>
+            </nav>
+        </header>
+	</div>
 
-        <!--Menu hamburguer para mobile-media-queries-->
-        <div class="mobile-menu" onclick="toggleMenu()">☰</div>
-
-        <!-- Menu dropdown para mobile -->
-        <div class="mobile-dropdown">
-            <a href="/.nav/clube.html">Clube</a>
-            <a href="/.nav/ultimasnoticias.html">Notícias</a>
-            <a href="/.nav/arena.html">Arena</a>
-            <a href="/.nav/jogos.html">Jogos</a>
-            <a href="/.nav/mercado.html">Mercado</a>
-            <a href="/.nav/modalidades.html">Modalidades</a>
-        </div>
-        </nav>
-    </header>
-    <main>
-        <h1>Jogos</h1>
-    </main>
-
-    <section>
-        <footer class="footer bg-black text-white py-4">
-            <div class="container text-center">
-                <p class="mb-2">&copy; 2025 - Site do Corinthians. Todos os direitos reservados.</p>
-                <p class="mb-2">Feito por Jhon</p>
+    <div id="conteudo" class="container clearfix">		
+        <h1 class="principal" style="margin-top: 90px; padding: top 30px;">Próximos jogos do Corinthians</h1>
         
-                <!-- Ícones das redes sociais -->
-                <div class="social-icons">
-                    <a href="#" class="text-white me-3"><i class="fab fa-facebook fa-lg"></i></a>
-                    <a href="#" class="text-white me-3"><i class="fab fa-instagram fa-lg"></i></a>
-                    <a href="#" class="text-white"><i class="fab fa-twitter fa-lg"></i></a>
-                </div>
-            </div>
-        </footer>
-    </section>
-    <script src="/js/script.js"></script>
+        <div class="header_tab">
+            <div class="submenu_duplo">
+                <ul class="categorias">
+                    <li class="ativo">
+                        <a href="#">Futebol Masculino</a>
+                    </li>
+                </ul>
+            </div>	
+        </div>
+        
+        <div id="main">	
+            <ul id="jogos_lista">
+    
+                <!-- Jogo 1 - Corinthians x Internacional -->
+                <li data-idJogo="8432" class="calendar checkin">
+                    <div class="quando com_semana">
+                        <time datetime="2025-05-03T18:30:00">
+                            <span class="dia">03</span>
+                            <span class="mes">Mai</span>
+                            <span class="semana">Sábado</span>
+                            <span class="hora hide">18h30</span>
+                        </time>
+                    </div>
+    
+                    <h3 class="placar futebol">
+                        <strong class="mandante">Corinthians</strong>
+                        <img src="//api.meutimao.com.br/img/ico/escudo_corinthians.png" alt="Corinthians" class="mandante"/>
+                        <em class="mandante"></em>
+                        <span>versus</span>
+                        <em class="visitante"></em>
+                        <img src="//cdn.meutimao.com.br/_upload/time/internacional_c6_rs_br_t.jpg" alt="Internacional" class="visitante"/>
+                        <strong class="visitante">Internacional</strong>
+                    </h3>
+    
+                    <div class="onde">
+                        <p class="estadio">Neo Química Arena</p>
+                        <p class="campeonato">Brasileirão 2025</p>
+                    </div>						
+                    <a class="link_over_node" href="/jogo/8432/brasileirao-2025/corinthians-x-internacional" title="Veja mais informações da partida Corinthians x Internacional">
+                        Corinthians x Internacional: informações da partida 
+                    </a>
+    
+                    <div class="botoes_controle_jogo" data-idJogo="8432">
+                        <a class="calendar" href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20250503T183000-10800/20250503T203000-10800&text=Corinthians+x+Internacional&location=Neo+Qu%C3%ADmica+Arena&details=Corinthians+e+Internacional+se+enfrentam+pelo+Campeonato+Brasileiro+2025.+Mais+informa%26ccedil%3B%26otilde%3Bes+da+partida+em+%3A+https%3A%2F%2Fwww.meutimao.com.br%2Fjogo%2F8432%2Fbrasileirao-2025%2Fcorinthians-x-internacional&sprop=https%3A%2F%2Fwww.meutimao.com.br%2Fjogo%2F8432%2Fbrasileirao-2025%2Fcorinthians-x-internacional&ctz=America%2FSao_Paulo" rel="nofollow" target="_blank">Google Calendário</a>						
+                        <a class="checkin" href="#">
+                            <span class="label">Marcar presença</span>
+                            <span class="totalCheckin">287 corinthianos vão</span>
+                        </a>
+                    </div>
+    
+                    <div class="mais_info_jogo">
+                        <div class="container_info">
+                            <span class="futebol">Futebol</span>
+                            <p>Masculino</p>
+                            <p>Profissional</p>
+                            <p class="transmissao">Transmissão: <a href="http://timao.me/Amazon30DiasGratis" title="Assine a Amazon com 30 dias grátis e assista ao vivo" target="_blank" rel="nofollow" style="text-decoration:underline; color:#000;">Amazon Prime Video</a></p>
+                        </div>
+                    </div>
+                </li>
+    
+                <!-- Jogo 2 - Corinthians x América de Cali -->
+                <li data-idJogo="8532" class="calendar checkin">
+                    <div class="quando com_semana">
+                        <time datetime="2025-05-06T21:30:00">
+                            <span class="dia">06</span>
+                            <span class="mes">Mai</span>
+                            <span class="semana">Terça-feira</span>
+                            <span class="hora hide">21h30</span>		
+                        </time>
+                    </div>	
+    
+                    <h3 class="placar futebol"> 
+                        <strong class="mandante">Corinthians</strong>
+                        <img src="//api.meutimao.com.br/img/ico/escudo_corinthians.png" alt="Corinthians" class="mandante"/>
+                        <em class="mandante"></em>
+                        <span>versus</span>
+                        <em class="visitante"></em>
+                        <img src="//cdn.meutimao.com.br/_upload/time/america_de_cali_ej_co_t.jpg" alt="América de Cali" class="visitante"/>
+                        <strong class="visitante">América de Cali</strong>
+                    </h3>	
+    
+                    <div class="onde">
+                        <p class="estadio">Neo Química Arena</p>
+                        <p class="campeonato">Sul-Americana 2025</p>
+                    </div>
+    
+                    <a class="link_over_node" href="/jogo/8532/sul-americana-2025/corinthians-x-america_de_cali" title="Veja mais informações da partida Corinthians x América de Cali">
+                        Corinthians x América de Cali: informações da partida 
+                    </a>
+    
+                    <div class="botoes_controle_jogo" data-idJogo="8532">
+                        <a class="calendar" href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20250506T213000-10800/20250506T233000-10800&text=Corinthians+x+Am%C3%A9rica+de+Cali&location=Neo+Qu%C3%ADmica+Arena&details=Corinthians+e+Am%C3%A9rica+de+Cali+se+enfrentam+pela+Copa+Sul-Americana+2025.+Mais+informa%26ccedil%3B%26otilde%3Bes+da+partida+em+%3A+https%3A%2F%2Fwww.meutimao.com.br%2Fjogo%2F8532%2Fsul-americana-2025%2Fcorinthians-x-america_de_cali&sprop=https%3A%2F%2Fwww.meutimao.com.br%2Fjogo%2F8532%2Fsul-americana-2025%2Fcorinthians-x-america_de_cali&ctz=America%2FSao_Paulo" rel="nofollow" target="_blank">Google Calendário</a>						
+                        <a class="checkin" href="#">
+                            <span class="label">Marcar presença</span>
+                            <span class="totalCheckin">178 corinthianos vão</span>
+                        </a>
+                    </div>
+    
+                    <div class="mais_info_jogo">
+                        <div class="container_info">		
+                            <span class="futebol">Futebol</span>
+                            <p>Masculino</p>
+                            <p>Profissional</p>
+                            <p class="transmissao">Transmissão: ESPN/Disney+ e SBT</p>
+                        </div>
+                    </div>
+                </li>
+    
+                <!-- Jogo 3 - Mirassol x Corinthians -->
+                <li data-idJogo="8433" class="calendar checkin">
+                    <div class="quando com_semana">
+                        <time datetime="2025-05-10T18:30:00">
+                            <span class="dia">10</span>
+                            <span class="mes">Mai</span>
+                            <span class="semana">Sábado</span>
+                            <span class="hora hide">18h30</span>
+                        </time>
+                    </div>	
+        
+                    <h3 class="placar futebol"> 
+                        <strong class="visitante">Corinthians</strong>
+                        <img src="//api.meutimao.com.br/img/ico/escudo_corinthians.png" alt="Corinthians" class="visitante"/>
+                        <em class="visitante"></em>
+                        <span>versus</span>
+                        <em class="mandante"></em>
+                        <img src="//cdn.meutimao.com.br/_upload/time/mirassol_v9_sp_br_t.jpg" alt="Mirassol" class="mandante"/>
+                        <strong class="mandante">Mirassol</strong>
+                    </h3>	
+    
+                    <div class="onde">
+                        <p class="estadio">Campos Maia</p>
+                        <p class="campeonato">Brasileirão 2025</p>
+                    </div>						
+                    <a class="link_over_node" href="/jogo/8433/brasileirao-2025/mirassol-x-corinthians" title="Veja mais informações da partida Mirassol x Corinthians">
+                        Mirassol x Corinthians: informações da partida 
+                    </a>
+    
+                    <div class="botoes_controle_jogo" data-idJogo="8433">
+                        <a class="calendar" href="http://www.google.com/calendar/event?action=TEMPLATE&dates=20250510T183000-10800/20250510T203000-10800&text=Mirassol+x+Corinthians&location=Campos+Maia&details=Mirassol+e+Corinthians+se+enfrentam+pelo+Campeonato+Brasileiro+2025.+Mais+informa%26ccedil%3B%26otilde%3Bes+da+partida+em+%3A+https%3A%2F%2Fwww.meutimao.com.br%2Fjogo%2F8433%2Fbrasileirao-2025%2Fmirassol-x-corinthians&sprop=https%3A%2F%2Fwww.meutimao.com.br%2Fjogo%2F8433%2Fbrasileirao-2025%2Fmirassol-x-corinthians&ctz=America%2FSao_Paulo" rel="nofollow" target="_blank">Google Calendário</a>						
+                        <a class="checkin" href="#">
+                            <span class="label">Marcar presença</span>
+                            <span class="totalCheckin">168 corinthianos vão</span>
+                        </a>
+                    </div>
+    
+                    <div class="mais_info_jogo">
+                        <div class="container_info">
+                            <span class="futebol">Futebol</span>
+                            <p>Masculino</p>
+                            <p>Profissional</p>
+                            <p class="transmissao">Transmissão: Globo, Premiere, SportTV e TNT Sports</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>	
+        </div>	
+    </div>
+            <!-- main -->
+		</div>
     <script src="/js/menu.js"></script>
+    <script src="/js/script.js"></script>
+	<script type="text/javascript" src="//api.meutimao.com.br/js/min/pack.js?v=36091" data-cfasync="false"></script> 
+	<script type="module" async="true" data-cfasync="false" src="/_push.js?v=bd7d0019112caf49d9f4d4cbaa5aefe8"></script>
+	<script src="https://apis.google.com/js/platform.js?onload=renderButtonGoogleSignIn" async defer data-cfasync="false"></script>
+	<script type="6eaca362afd35a5e40769e2a-text/javascript" src="https://www.terra.com.br/globalSTATIC/fe/zaz-app-t360-navbar-partner/_js/metrics.js" async></script>
+	<script src="https://securepubads.g.doubleclick.net/tag/js/gpt.js" async type="6eaca362afd35a5e40769e2a-text/javascript"></script>
+	<script src="https://tag.curiosidadesdigitais.com/prebid7.49.0.js" async type="6eaca362afd35a5e40769e2a-text/javascript"></script>
+	<script src="https://tag.curiosidadesdigitais.com/meutimao_aps.100.js" async type="6eaca362afd35a5e40769e2a-text/javascript"></script>
+	<script type="6eaca362afd35a5e40769e2a-text/javascript">gmAdCmds.push({command: 'gmAdRunBids'});</script>
+	<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="6eaca362afd35a5e40769e2a-|49" defer></script>
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"9390a5792e55f653","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}},"version":"2025.4.0-1-g37f21b1","token":"a09754ab5c184801b451548dd6dc28ae"}' crossorigin="anonymous">
+    </script>
 </body>
-</html>
+</html> 
