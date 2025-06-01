@@ -146,11 +146,6 @@ header img {
     margin: 0 auto; 
 }
 
-@media screen and (min-width: 1440px) {
-    .noticias-container {
-        grid-template-columns: repeat(4, 1fr);
-    }
-}
     /*Cite Noticias */
 .noticia cite {
     display: block; 
@@ -166,6 +161,8 @@ header img {
     color: white; 
     padding: 20px 0;
     font-size: 14px;
+    width: 100em;
+    margin-left: -20vh;
 }
 
 .footer .social-icons a {
