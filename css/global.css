@@ -347,12 +347,13 @@
     margin: 20px;
   }
 
-  .secao1 p,i,
-  .secao2 p,i,
-  .secao3 p, i {
+  .secao1 i,
+  .secao2 i,
+  .secao3 i {
     text-align: right;
     margin: 12px 0;
-    margin-right: -200;
+    margin-right: -200px;
+    margin-left: 10px;
     font-size: 16px;
     line-height: 1.5;
     width: 90%;
