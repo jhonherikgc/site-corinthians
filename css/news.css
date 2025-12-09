@@ -108,32 +108,124 @@ header img {
 .noticia3 cite {
     display: block;
     text-align: left;
-    font-style: italic;
+    font-style: normal;
     font-size: 14px;
     color: #666;
     margin-top: 5px;
 }
 
-/* Footer */
+/* Align images on large screens (1920px+) */
+@media (min-width: 1920px) {
+    .noticia1 img,
+    .noticia2 img,
+    .noticia3 img {
+        margin: 0;
+        width: 600px;
+        height: auto;
+        margin-bottom: 15px;
+        display: block;
+    }
+}
+
+/* Footer - Full-bleed and centered like Inicio page */
 .footer {
-    background-color: black;
-    color: white;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
     padding: 20px 0;
-    font-size: 14px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.footer p.mb-2 {
+    margin: 4px 0;
+    text-align: center;
 }
 
 .footer .social-icons {
     display: flex;
+    gap: 14px;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
+    margin-top: 4px;
 }
 
-.footer .social-icons a {
-    transition: 0.3s ease-in-out;
+.footer .social-icons a i {
+    font-size: 1.2rem;
+}
+
+.footer .social-icons a,
+.footer .social-icons a:link,
+.footer .social-icons a:visited {
+    color: #ffffff !important;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
 
 .footer .social-icons a:hover {
-    color: #ff0000;
+    color: #ff0000 !important;
 }
 
+/* Small upward nudge for the second footer line on ~1366px widths */
+@media (min-width: 1360px) and (max-width: 1370px) {
+    .footer p.mb-2:nth-of-type(2) {
+        margin-top: -10px;
+    }
+}
 
+/* Center footer text on 1920x1080 and larger screens */
+@media (min-width: 1920px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer .container {
+        text-align: center;
+        margin-left: 70em;
+    }
+
+    .footer p.mb-2 {
+        text-align: center;
+    }
+
+    .footer .social-icons {
+        justify-content: center;
+    }
+}
+
+/* Small screens: reduce footer spacing so content sits closer on narrow viewports */
+@media (max-width: 768px) {
+    .footer {
+        margin-top: 18px; /* lower gap above footer */
+        padding: 12px 0; /* tighter vertical padding */
+    }
+
+    .footer .container {
+        padding: 0 12px; /* reduce horizontal padding on small screens */
+        gap: 6px; /* slightly smaller gap between lines */
+    }
+
+    .footer p.mb-2 {
+        font-size: 13px; /* slightly smaller text to improve fit */
+    }
+
+    .footer .social-icons a i {
+        font-size: 1rem; /* slightly smaller icons on small screens */
+    }
+}
+
+/* Remove horizontal scroll on news page */
+body.news-page {
+    overflow-x: hidden;
+}

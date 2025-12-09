@@ -9,6 +9,18 @@
   position: relative;
 }
 
+/* Normalize <cite> visuals: remove italic decoration but keep links visibly linkified */
+cite {
+  font-style: normal !important;
+  font-weight: normal;
+}
+
+cite a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+
 /* Menu normal (desktop) */
 .menu-esquerda, .menu-direita {
   display: flex;
@@ -654,7 +666,7 @@
     height: auto;
     display: block;
   }
-  .noticia cite {
+  .noticia cite, .noticia p {
     text-align: center;
     margin: center;
     margin-top: 3px;

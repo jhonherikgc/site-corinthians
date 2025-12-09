@@ -172,3 +172,108 @@ header img {
 .footer .social-icons a:hover {
     color: #ff0000; 
 }
+
+/* Specific styles for the Inicio page footer to ensure full-bleed background and no white gaps */
+#inicio-footer {
+    background-color: #000; /* ensure full black background */
+    color: #fff;
+    width: 100vw; /* full viewport width */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw; /* pull to very left */
+    margin-right: -50vw; /* pull to very right */
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+#inicio-footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* keep spacing between lines */
+}
+
+/* Center the paragraphs and maintain spacing */
+#inicio-footer p.mb-2 {
+    margin: 4px 0;
+    text-align: center;
+}
+
+/* Center social icons and keep spacing */
+#inicio-footer .social-icons {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+}
+
+#inicio-footer .social-icons a i {
+    font-size: 1.2rem;
+}
+
+/* Links das redes sociais*/
+#inicio-footer .social-icons a,
+#inicio-footer .social-icons a:link,
+#inicio-footer .social-icons a:visited {
+    color: #ffffff;
+}
+
+#inicio-footer .social-icons a:hover {
+    color: #ff0000;
+}
+
+/* Small upward nudge for the second footer line on ~1366px widths */
+@media (min-width: 1360px) and (max-width: 1370px) {
+    #inicio-footer p.mb-2:nth-of-type(2) {
+        margin-top: -10px; /* lift it a bit more */
+    }
+}
+
+/* Remove horizontal scroll only on the Inicio page */
+body.inicio-page {
+    overflow-x: hidden;
+}
+
+#inicio-footer {
+    overflow-x: hidden; /* ensure no internal horizontal overflow */
+}
+
+/* Reduce text width on 1366x768 viewport */
+@media (min-width: 1360px) and (max-width: 1370px) {
+    .textos-noticia {
+        width: 500px;
+        max-width: 90%;
+    }
+}
+
+/* Large-screen layout fixes: align main images with text on 1920px+ displays */
+@media (min-width: 1920px) {
+    .inicio-h1 {
+        width: auto;
+        margin: 50px 100px;
+        max-width: 1200px;
+    }
+
+    .inicio-h1 img {
+        display: block; /* remove flex behavior */
+        width: 700px; /* fixed suitable width for large screens */
+        height: auto;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .textos-noticia {
+        margin: 50px 100px;
+    }
+
+    /* ensure noticia images align with the same column when in grid */
+    .container .noticia {
+        align-self: start;
+    }
+}
